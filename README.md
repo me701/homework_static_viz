@@ -20,8 +20,8 @@ covid = pandas.read_csv('./covid.csv')
 
 If you download that file today, the most recent date will be today
 or yesterday (depending on the time of day).  In class, my data stopped
-with 10/29/2020 numbers.  For the number of KS positive cases as a function
-of days following the emergence of COVID-19 in the United States:
+with 10/29/2020 numbers.  I developed this model of the
+number of KS positive cases as a function of time:
 
 ```
 def positive_estimated(t):
